@@ -4,3 +4,8 @@ Memberships
 * Basic plan link should point to regular Devise sign up form
 * Pro plan link should point to a custom sign up form that collects credit card info
 
+ActiveRecord: a bunch of capabilities/code that our Contact class inherits from.  Allows you to use SQL without writing SQL queries.  (ie. Contact.all.to_sql in the console will show you the barebone S(QL queries)
+
+Parameters: two kinds of parameters (data that you want to pass over the internet) in a web application - query string parameters and POST data.  
+
+Substitution: concept of mentally substituting/replacing what you see on the screen.
