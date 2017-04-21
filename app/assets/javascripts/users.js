@@ -57,6 +57,7 @@ $(document).on('turbolinks:load', function(){
       }, stripeResponseHandler);
     }
 
+    // to exit the function
     return false; 
   });
 
